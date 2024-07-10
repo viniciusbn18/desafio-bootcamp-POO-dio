@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 
 public class Main {
@@ -7,5 +8,7 @@ public class Main {
         curso1.setDescricao("Descricao curso java");
         curso1.setCargaHoraria(8);
         System.out.println(curso1);
+
+        Conteudo curso2 = new Curso();
     }
 }
